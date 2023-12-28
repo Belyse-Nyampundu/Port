@@ -28,7 +28,6 @@ const Articles = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
-
 			<div className="page-content">
 				<NavBar active="articles" />
 				<div className="content-wrapper">
