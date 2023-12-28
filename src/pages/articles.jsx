@@ -37,13 +37,10 @@ const Articles = () => {
 							<Logo width={46} />
 						</div>
 					</div>
-
 					<div className="articles-main-container">
 						<div className="title articles-title">
 							{INFO.skills.title}
 						</div>
-
-					
 						<div className="articles-container">
 							<div className="articles-wrapper">
 								{myArticles.map((skills, index) => (
