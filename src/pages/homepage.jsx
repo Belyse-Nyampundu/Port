@@ -102,13 +102,16 @@ const Homepage = () => {
 
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="homepage.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
-									</div>
+								<div className="homepage-image-wrapper">
+                                   <div className="image-container">
+                                     <img
+                                        src="belyse.png"
+                                        alt="about"
+                                        className="homepage-image"
+                                    />
+                                    </div>
+                                </div>
+
 								</div>
 							</div>
 						</div>
@@ -141,26 +144,6 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
 									className="homepage-social-icon"
 								/>
 							</a>

@@ -148,3 +148,16 @@
 		margin-right: -25px;
 	}
 }
+.homepage-image-wrapper {
+    position: relative; 
+}
+
+.image-container {
+    background-color: #c69c6c;
+    display: inline-block;
+}
+
+.homepage-image {
+    width: 40%;
+    height: auto; 
+}

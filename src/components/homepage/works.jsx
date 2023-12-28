@@ -8,7 +8,7 @@ import "./styles/works.css";
 const Works = () => {
 	return (
 		<div className="works">
-			<Card
+			{/* <Card
 				icon={faBriefcase}
 				title="Work"
 				body={
@@ -40,7 +40,7 @@ const Works = () => {
 						</div>
 					</div>
 				}
-			/>
+			/> */}
 		</div>
 	);
 };
