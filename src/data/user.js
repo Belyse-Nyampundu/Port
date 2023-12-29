@@ -58,6 +58,14 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Belyse-Nyampundu/My-wallet.git",
 		},
+		{
+			title: "Fresh2GO",
+			description:
+				"Fresh2GO is an application that displays all vegetable for Mamamboga",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://github.com/Belyse-Nyampundu/FRESH2GO.git",
+		},
 	],
 };
 
